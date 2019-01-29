@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /login
+Disallow: /Cpanel
+Disallow: /uploaddoc.php
+Disallow: /otpprocess.php
+Disallow: /uploadnot.php
+Disallow: /passproc.php
+Disallow: /upload.php
+Allow: /

@@ -1,0 +1,25 @@
+[19-Jun-2017 05:17:55 UTC] PHP Warning:  include(SMTPClass.php): failed to open stream: No such file or directory in /home/jnvmecf/public_html/mail/index.php on line 3
+[19-Jun-2017 05:17:55 UTC] PHP Warning:  include(): Failed opening 'SMTPClass.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jnvmecf/public_html/mail/index.php on line 3
+[19-Jun-2017 08:00:43 UTC] PHP Warning:  include(SMTPClass.php): failed to open stream: No such file or directory in /home/jnvmecf/public_html/mail/index.php on line 3
+[19-Jun-2017 08:00:43 UTC] PHP Warning:  include(): Failed opening 'SMTPClass.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jnvmecf/public_html/mail/index.php on line 3
+[19-Jun-2017 08:01:03 UTC] PHP Warning:  include(SMTPClass.php): failed to open stream: No such file or directory in /home/jnvmecf/public_html/mail/index.php on line 3
+[19-Jun-2017 08:01:03 UTC] PHP Warning:  include(): Failed opening 'SMTPClass.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jnvmecf/public_html/mail/index.php on line 3
+[19-Jun-2017 08:01:03 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTPClient' not found in /home/jnvmecf/public_html/mail/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/jnvmecf/public_html/mail/index.php on line 10
+[19-Jun-2017 08:07:13 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jnvmecf/public_html/mail/mail.php on line 2
+[19-Jun-2017 08:07:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jnvmecf/public_html/mail/mail.php on line 2
+[19-Jun-2017 08:07:16 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jnvmecf/public_html/mail/mail.php on line 2
+[19-Jun-2017 08:07:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jnvmecf/public_html/mail/mail.php on line 2
+[19-Jun-2017 08:32:53 UTC] PHP Warning:  require_once(Mail.php): failed to open stream: No such file or directory in /home/jnvmecf/public_html/mail/send.php on line 2
+[19-Jun-2017 08:32:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'Mail.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/jnvmecf/public_html/mail/send.php on line 2
+[19-Jun-2017 08:42:06 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home/jnvmecf/public_html/mail/phpmailer.php:1393
+Stack trace:
+#0 /home/jnvmecf/public_html/mail/phpmailer.php(1472): PHPMailer->getSMTPInstance()
+#1 /home/jnvmecf/public_html/mail/phpmailer.php(1412): PHPMailer->smtpConnect(Array)
+#2 /home/jnvmecf/public_html/mail/phpmailer.php(1220): PHPMailer->smtpSend('Date: Mon, 19 J...', 'This is a multi...')
+#3 /home/jnvmecf/public_html/mail/phpmailer.php(1107): PHPMailer->postSend()
+#4 /home/jnvmecf/public_html/mail/send.php(30): PHPMailer->send()
+#5 {main}
+  thrown in /home/jnvmecf/public_html/mail/phpmailer.php on line 1393

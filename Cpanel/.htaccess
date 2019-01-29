@@ -1,0 +1,9 @@
+
+
+
+
+AuthType Basic
+AuthName "Cpanel"
+require valid-user
+AuthUserFile "/home/jnvnadi1/.htpasswds/public_html/Cpanel/passwd"
+Options -Indexes
