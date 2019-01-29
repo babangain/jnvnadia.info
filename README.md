@@ -1,7 +1,7 @@
 # jnvnadia.info
 
 I did it during my first year.  
-Warning : Code is almost uncommented and Standards are NOT followed.  
+Warning : Code is almost uncommented and Standards are NOT followed.  ( I had no laptop back then, I developed it using my android mobile. )   
 The website contains the following feature,   
 - Login Panel for every individual student  
 - After student Sign In, Personalized dashboard for routines and free NCERT textbooks for their class.  
