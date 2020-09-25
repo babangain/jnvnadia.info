@@ -31,6 +31,5 @@ Technologies Used :
 - Way2Sms for SMS  
 - PHPmailer for sending Emails  
 - SSL certificates issued by Lets Encrypt for HTTPS connection  
-*This Project Was discontinued on 2018 due to lack of time*  
 
 ## View Live : https://web.archive.org/web/20180420090623/https://www.jnvnadia.info/    ( Web Archive)
